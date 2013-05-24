@@ -2,14 +2,14 @@
 
 # Flashable ZIP Maker	
 # Author: Russell Dias
-# Version: 1.0.0
+# Version: 1.0.1
 # Date: May 24, 2013
 # Contact: russell.dias98@gmail.com
 # Flashable ZIP Maker by russelldias
 
 echo "Making a Flashable zip"
 cd target
-sleep .1
+sleep .2
 # Making zip 
 cp -r ../tools/META-INF META-INF
 cp -r ../tools/system system
@@ -30,13 +30,13 @@ rm *.pem
 rm -r META-INF 
 rm -r system
 cd ..
-echo "Flashable zip is Flashable-ZIP-Maker-SIGNED.zip"
+echo "Flashable zip is in target/Flashable-ZIP-Maker-SIGNED.zip"
 tput sgr0
 setterm -bold
 echo "Flashable ZIP Maker by russelldias"
-sleep 2
+sleep .1
 echo "Thanks for using Flashable ZIP Maker"
-sleep 2
+sleep .1
 echo "Please press [Enter] to exit."
 tput sgr0
 read ANS
