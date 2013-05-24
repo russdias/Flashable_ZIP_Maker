@@ -6,7 +6,6 @@ A) cd-to-folder
    ./perm.sh
 
 
-
 Q) Where to place Files?
 
 A) Flashable-ZIP-Maker/tools/system
@@ -24,6 +23,11 @@ A) cd-to-folder
    ./zip.sh
    your zip will be in target/Flashable-ZIP-Maker-SIGNED.zip
 
+
+Q) How to start new?
+
+A) cd-to-folder
+   ./new.sh
 
 
 Thank you
