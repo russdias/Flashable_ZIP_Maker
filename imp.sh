@@ -2,7 +2,7 @@
 
 echo "Making Needed Folder"
 sleep .1
-mkdir target
+mkdir output
 sleep .1
 echo "Done"
 
