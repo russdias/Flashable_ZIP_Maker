@@ -2,15 +2,23 @@
 
 # Flashable ZIP Maker	
 # Author: Russell Dias
-# Version: 1.0.4
+# Version: 1.0.5
 # Date: May 24, 2013
 # Contact: russell.dias98@gmail.com
 # Flashable ZIP Maker by russelldias
 
-echo "Making a Flashable zip"
+echo "Removing output folder and its contents"
+sleep .1
+tput setaf 2
+if test -e output
+  then
+   rm -rf output
+fi
+echo "Making a fresh output folder"
 mkdir output
 cd output
 sleep .2
+echo "Making Zip"
 # Making zip 
 cp -r ../tools/META-INF META-INF
 cp -r ../tools/system system
