@@ -2,7 +2,7 @@
 
 # Flashable ZIP Maker	
 # Author: Russell Dias
-# Version: 1.0.3
+# Version: 1.0.4
 # Date: May 24, 2013
 # Contact: russell.dias98@gmail.com
 # Flashable ZIP Maker by russelldias
@@ -31,6 +31,10 @@ rm *.pem
 rm -r META-INF 
 rm -r system
 cd ..
+#Zip Size
+cd output
+s1=`ls -lh Flashable-ZIP-Maker-SIGNED.zip | sed -e 's/.* [ ]*\([0-9]*\.[0-9]*[MK]\) .*/\1/g'`
+echo "Size of ZIP is = $s1"
 echo "Flashable zip is in output/Flashable-ZIP-Maker-SIGNED.zip"
 tput sgr0
 setterm -bold
