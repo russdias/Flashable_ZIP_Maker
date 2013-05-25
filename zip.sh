@@ -2,12 +2,13 @@
 
 # Flashable ZIP Maker	
 # Author: Russell Dias
-# Version: 1.0.2
+# Version: 1.0.3
 # Date: May 24, 2013
 # Contact: russell.dias98@gmail.com
 # Flashable ZIP Maker by russelldias
 
 echo "Making a Flashable zip"
+mkdir output
 cd output
 sleep .2
 # Making zip 
