@@ -14,20 +14,11 @@ A) Flashable-ZIP-Maker/tools/system
    NOTE:I HAVE MADE ALL THE FOLDER NEEDED. PLEASE PLACE IN THE RIGHT   PLACE.
 
 
-BEFORE MAKING ZIP EXECUTE imp.sh
-
-
 Q) How to make zip?
 
 A) cd-to-folder
    ./zip.sh
    your zip will be in target/Flashable-ZIP-Maker-SIGNED.zip
-
-
-Q) How to start new?
-
-A) cd-to-folder
-   ./new.sh
 
 
 Thank you
